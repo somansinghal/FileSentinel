@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FileSentinel | Malware Scanner</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    
+    <div class="cyber-bg"></div>
+    <canvas id="matrix"></canvas>
+        
+        <header>
+        
+        <img src="fs-logo.png" class="logo">
+        
+        <h1>FileSentinel</h1>
+        <p>Advanced Malware File Scanner</p>
+        
+    </header>
+        
+
+<section class="scanner">
+
+<div id="dropZone" class="drop-zone">
+
+<p>Drag & Drop File Here</p>
+
+<input type="file" id="fileInput">
+
+<button onclick="scanFile()">Scan File</button>
+
+</div>
+
+<div class="terminal" id="terminal"></div>
+
+<div id="result" class="result"></div>
+
+<button id="downloadReport" onclick="downloadPDF()" style="display:none">
+Download Malware Report
+</button>
+</div>
+
+</section>
+
+<footer>
+
+Cybersecurity Tool | 15 Day Developer Challenge
+
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+<script src="matrix.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</body>
+
+</html>
+
