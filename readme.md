@@ -130,8 +130,7 @@ FileSentinel
 ├── script.js
 ├── matrix.js
 ├── config.js
-└── assets
-     └── logo.png
+└── logo.png
 ```
 
 ---
