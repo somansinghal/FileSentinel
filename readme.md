@@ -1,8 +1,4 @@
-<!-- ========================= -->
-
-<!-- FILESENTINEL CYBER README -->
-
-<!-- ========================= -->
+<img src="fs-logo.png" align="center">
 
 <p align="center">
 
